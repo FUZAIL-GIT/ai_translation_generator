@@ -9,7 +9,7 @@ class CliUtils {
   static int _spinnerIndex = 0;
 
   /// Print colored text to the terminal.
-  /// 
+  ///
   /// [text] The text to print.
   /// [color] The color to use (red, green, blue, yellow, cyan, magenta, white, gray).
   static void printColored(String text, {String color = 'white'}) {

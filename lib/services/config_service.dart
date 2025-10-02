@@ -10,7 +10,7 @@ class ConfigService {
   static const String configFileName = 'ai_translation_generator.yaml';
 
   /// Check if config file exists in current directory.
-  /// 
+  ///
   /// Returns `true` if the configuration file exists, `false` otherwise.
   bool configExists() {
     return File(configFileName).existsSync();
