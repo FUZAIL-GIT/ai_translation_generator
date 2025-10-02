@@ -30,7 +30,7 @@ dart pub global activate ai_translation_generator
 ### Local Development
 
 ```bash
-git clone https://github.com/your-username/ai_translation_generator.git
+git clone https://github.com/FUZAIL-GIT/ai_translation_generator.git
 cd ai_translation_generator
 dart pub get
 dart compile exe bin/ai_translation_generator.dart -o aitranslation
@@ -261,7 +261,7 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 ### Development Setup
 
 ```bash
-git clone https://github.com/your-username/ai_translation_generator.git
+git clone https://github.com/FUZAIL-GIT/ai_translation_generator.git
 cd ai_translation_generator
 dart pub get
 dart test
@@ -285,10 +285,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- 📖 [Documentation](https://github.com/your-username/ai_translation_generator#readme)
-- 🐛 [Report Issues](https://github.com/your-username/ai_translation_generator/issues)
-- 💬 [Discussions](https://github.com/your-username/ai_translation_generator/discussions)
-- ⭐ [Star the Project](https://github.com/your-username/ai_translation_generator)
+- 📖 [Documentation](https://github.com/FUZAIL-GIT/ai_translation_generator#readme)
+- 🐛 [Report Issues](https://github.com/FUZAIL-GIT/ai_translation_generator/issues)
+- 💬 [Discussions](https://github.com/FUZAIL-GIT/ai_translation_generator/discussions)
+- ⭐ [Star the Project](https://github.com/FUZAIL-GIT/ai_translation_generator)
 
 ## 🗺️ Roadmap
 
