@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.1] - 2024-12-19
 
 ### Fixed
+
 - 🔧 Fixed executable configuration for `dart pub global activate`
 - 📦 Added proper `executables` section in pubspec.yaml
 - 🚀 CLI now accessible as `aitranslation` command after global activation
