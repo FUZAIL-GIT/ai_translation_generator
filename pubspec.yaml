@@ -1,0 +1,22 @@
+name: ai_translation_generator
+description: A professional CLI tool for AI-powered translation generation using Google's Gemini AI. Generate Flutter l10n files with ease.
+version: 1.0.0
+homepage: https://github.com/your-username/ai_translation_generator
+repository: https://github.com/your-username/ai_translation_generator
+issue_tracker: https://github.com/your-username/ai_translation_generator/issues
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  args: ^2.4.2
+  http: ^1.1.0
+  yaml: ^3.1.2
+  cli_util: ^0.4.0
+  path: ^1.8.3
+  io: ^1.0.4
+  dotenv: ^4.1.0
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.24.0
