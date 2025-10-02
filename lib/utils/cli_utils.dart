@@ -1,11 +1,17 @@
 import 'dart:io';
 
-/// Utility class for CLI formatting and animations
+/// Utility class for CLI formatting and animations.
+///
+/// Provides methods for creating beautiful terminal output with colors,
+/// progress indicators, and professional formatting for the AI Translation Generator CLI.
 class CliUtils {
   static const String _spinnerChars = '⠋⠙⠹⠸⠼⠴⠦⠧⠇⠏';
   static int _spinnerIndex = 0;
 
-  /// Print colored text
+  /// Print colored text to the terminal.
+  /// 
+  /// [text] The text to print.
+  /// [color] The color to use (red, green, blue, yellow, cyan, magenta, white, gray).
   static void printColored(String text, {String color = 'white'}) {
     final colorCode = _getColorCode(color);
     stdout.writeln('$colorCode$text$_resetColor');

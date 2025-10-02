@@ -2,11 +2,16 @@ import 'dart:io';
 import 'package:yaml/yaml.dart';
 import '../models/translation_config.dart';
 
-/// Service for managing configuration files
+/// Service for managing configuration files.
+///
+/// Handles creation, loading, and validation of the AI Translation Generator
+/// configuration file (ai_translation_generator.yaml).
 class ConfigService {
   static const String configFileName = 'ai_translation_generator.yaml';
 
-  /// Check if config file exists in current directory
+  /// Check if config file exists in current directory.
+  /// 
+  /// Returns `true` if the configuration file exists, `false` otherwise.
   bool configExists() {
     return File(configFileName).existsSync();
   }
